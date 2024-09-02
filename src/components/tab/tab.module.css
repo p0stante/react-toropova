@@ -1,0 +1,18 @@
+.root {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+
+.root.active {
+    border-bottom: 2px solid #007bff;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.root:hover {
+    background-color: #f0f0f0;
+}

@@ -3,6 +3,8 @@ import { restaurants } from "../../mock";
 import { Restaurant } from "../restaurant/restaurant";
 import { Tab } from "../tab/tab";
 
+import styles from "./restaurants-page.module.css"
+
 export const RestaurantsPage = ({ title }) => {
   const [activeRestaurantId, setActiveRestaurantId] = useState(restaurants[0].id);
 
@@ -17,7 +19,7 @@ export const RestaurantsPage = ({ title }) => {
   };
 
   return (
-    <div>
+    <div className={styles.root}>
       <h1>{title}</h1>
 
       {restaurants.map(({ name, id }) => (
