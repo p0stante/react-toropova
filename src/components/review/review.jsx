@@ -1,5 +1,5 @@
-export const Review = ({user, text }) => {
+export const Review = ({user, text, rating }) => {
     return (
-        <li >{user}: {text}</li>
+       <>{user}: {text}  <span style={{ color: 'red' }}>{rating}</span></>
     );
   };

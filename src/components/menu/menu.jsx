@@ -4,7 +4,7 @@ export const Menu = ({menu}) => {
     return (
       <ul>
         {menu?.map((dish) => (
-        <Dish name={dish.name} price={dish.price}/>
+        <li><Dish name={dish.name} price={dish.price}/></li>
       ))}
       </ul>
     );
