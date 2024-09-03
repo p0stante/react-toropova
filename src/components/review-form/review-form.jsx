@@ -1,5 +1,6 @@
 import { useForm } from "./use-form";
 import { Counter } from "../counter/counter";
+import { Button } from "../button/button";
 
 import styles from "./review-form.module.css"
 
@@ -34,9 +35,9 @@ export const ReviewForm = () => {
         value={rating}
       />
       <br></br>
-      <button className={styles.clear} onClick={clear} >
+      <Button onClick={clear} >
         clear
-      </button>
+      </Button>
     </div>
   );
 };

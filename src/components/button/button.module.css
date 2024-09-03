@@ -13,7 +13,7 @@
   font-weight: 500;
   line-height: 10px;
   list-style: none;
-  padding: 6px 10px;
+  padding: 10px 24px;
   position: relative;
   transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   user-select: none;
@@ -24,9 +24,26 @@
   word-wrap: break-word;
 }
 
-.root:hover {
-  background-color: #F3F4F6;
+
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.light:hover {
+  background-color: #cdcfd2;
   text-decoration: none;
   transition-duration: 0.1s;
 }
 
+.dark:hover {
+  background-color: #5c5d5f;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
