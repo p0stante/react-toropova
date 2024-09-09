@@ -1,0 +1,8 @@
+.root{
+    display: flex;
+    justify-content: flex-end;
+}
+.root button{
+    float: left;
+    padding: 10px 24px;
+}
